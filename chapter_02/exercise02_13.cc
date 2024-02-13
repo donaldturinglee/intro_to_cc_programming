@@ -19,6 +19,6 @@ int main(int argc, char* argv[]) {
     monthly_saving_amount = (amount + monthly_saving_amount) * (1 + kMonthlyInterestRate);
     monthly_saving_amount = (amount + monthly_saving_amount) * (1 + kMonthlyInterestRate);
     std::cout << "After the sixth month, the account value is " << monthly_saving_amount << '\n';
-    
+
     return 0;
 }
