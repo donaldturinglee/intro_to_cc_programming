@@ -8,8 +8,8 @@ int main(int argc, char* argv[]) {
     double feet;
     std::cin >> feet;
 
-    double meter {feet * kMetersPerFoot};
-    std::cout << "The meter is " << meter << '\n';
+    double meters {feet * kMetersPerFoot};
+    std::cout << "The meters is " << meters << '\n';
 
     return 0;
 }
