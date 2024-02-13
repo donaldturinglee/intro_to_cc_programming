@@ -3,8 +3,6 @@
 
 int main(int argc, char* argv[]) {
 
-    const double PI {3.14159};
-
     std::cout << "The result of 4 * (1 - 1/3 + 1/5 - 1/7 + 1/9 - 1/11) is: " <<
             std::fixed <<
             std::setprecision(5) <<
