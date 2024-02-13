@@ -8,7 +8,7 @@ int main(int argc, char* argv[]) {
     const double kBirthsPerYear { kSecondsPerYear / 7.0 };
     const double kDeathsPerYear { kSecondsPerYear / 13.0 };
     const double kImmigrantPerYear { kSecondsPerYear / 45.0 };
-    
+
     std::cout << "Enter the number of years: ";
     int years_number;
     std::cin >> years_number;
