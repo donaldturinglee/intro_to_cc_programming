@@ -1,8 +1,11 @@
 #include <iostream>
-
+#include <iomanip>
 int main(int argc, char* argv[]) {
 
-    std::cout << "The sum of 1 to 9 is: " << 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 << '\n';
+    std::cout << "The result of 9.5 * 4.5 - 2.5 * 3 / 45.5 - 3.5 is: " <<
+            std::fixed <<
+            std::setprecision(2) <<
+            ((9.5 * 4.5) - (2.5 * 3)) / (45.5 - 3.5) << '\n';
 
     return 0;
 }
