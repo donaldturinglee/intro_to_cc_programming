@@ -4,6 +4,8 @@ int main(int argc, char* argv[]) {
 
     const double g { 9.8 };
 
+    // Formula: F = u * m * g + m * a
+
     std::cout << "Enter the friction force in Newtons: ";
     double F;
     std::cin >> F;
